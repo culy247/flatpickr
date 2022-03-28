@@ -67,6 +67,8 @@ export interface BaseOptions {
   /* Whether to enable animations, such as month transitions */
   animate: boolean;
 
+  isSecond: boolean;
+
   /* Instead of body, appends the calendar to the specified node instead. */
   appendTo: HTMLElement;
 
